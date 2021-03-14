@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyter = "*"
+nltk = "*"
+stop-words = "*"
+gensim = "*"
+scikit-learn = "*"
+pandas = "*"
+click = "*"
+loguru = "*"
+
+[dev-packages]
+isort = "*"
+black = "*"
+
+[requires]
+python_version = "3.8"

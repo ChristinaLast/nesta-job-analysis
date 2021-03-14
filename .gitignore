@@ -1,0 +1,113 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+ChangeLog
+MANIFEST
+
+docker-build-prod.sh
+docker-build-dev.sh
+docker-run-prod.sh
+docker-run-dev.sh
+/.idea
+/tmp-*
+/model_build
+
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env.prod
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# models
+models/*
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# macos files
+.DS_Store
+
+# vscode project settings
+.vscode
+*.csv
+*.pickle
+
+# vscode
+.vscode/
+
+# large csv
+*.csv.gz
+
+# images and movies
+*.gif
+*.mov
+*.png
+
+images/*
+!images/.keep
+
+screen_recordings/*
+!screen_recordings/.keep
+
+visualisations/*
+!visualisations/data/.keep
+
+data/*
+!data/.keep
