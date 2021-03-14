@@ -8,14 +8,19 @@ Process
 ---------
 The fiction titles and subjects came from ESCO:
 ESCO Job Title and Description Dataset
+
 The job titles and descriptions were analyzed using LDA from the gensim python library to create 10 topics:
 Gensim: [LDA Model](https://radimrehurek.com/gensim/models/ldamodel.html)
+
 The google news word vectors were used as a pregenerated Word2Vec model:
 Google News Word Vectors: [Description](https://code.google.com/archive/p/word2vec/) Google News Word Vectors: [Download](https://github.com/mmihaltz/word2vec-GoogleNews-vectors)
+
 I retrained the google news word vectors with the job descriptions using Gensim:
 Gensim: [Word2Vec Model](https://radimrehurek.com/gensim/models/word2vec.html)
+
 The resulting word vectors were brought down to three dimensions using t-SNE from the scikit learn python library:
 Scikit-Learn: [t-SNE](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+
 The visualisation tool was developed in Processing.org to show the job title vectors and word vectors, as well as the occupation class which has the highest topical coherence to the job description.
 Processing: [Processing 3](https://processing.org/)
 
