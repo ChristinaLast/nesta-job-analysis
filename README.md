@@ -35,11 +35,11 @@ Processing: [Processing 3](https://processing.org/)
 Installation
 ---------
 
-To create and enter a virtual environment:
+Requires installation of [Pipenv](https://pypi.org/project/pipenv/) and [`python -v < 3.6`](https://docs.python-guide.org/starting/install3/linux/). To create and enter a virtual environment:
 
 .. code-block:: python
 
-    pipenv install --dev
+    pipenv shell
 
 To install the dependencies needed to run the processing pipeline:
 
