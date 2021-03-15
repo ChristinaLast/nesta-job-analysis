@@ -35,7 +35,7 @@ Processing: [Processing 3](https://processing.org/)
 Installation
 ---------
 
-Requires installation of [Pipenv](https://pypi.org/project/pipenv/) and [`python -v < 3.6`](https://docs.python-guide.org/starting/install3/linux/). To create and enter a virtual environment:
+Requires installation of [`pipenv`](https://pypi.org/project/pipenv/) and [`python -v > 3.6`](https://docs.python-guide.org/starting/install3/linux/). To create and enter a virtual environment:
 
 .. code-block:: python
 
