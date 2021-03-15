@@ -6,7 +6,7 @@ This repository generates an alternative occupation classification using machine
 
 Process
 ---------
-The fiction titles and subjects came from ESCO:
+The job titles and subjects came from ESCO:
 
 ESCO: [Job Title and Description Dataset](https://drive.google.com/file/d/16msIYPspUp2zrkgGJTdFQF8ZcxfEQbSy/view?usp=sharing)
 
